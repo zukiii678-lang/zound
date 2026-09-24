@@ -1,6 +1,6 @@
 # ZOUND
 
-ZOUND is a dark modern sound library for video editors. It indexes official Freesound previews and keeps license metadata visible per card.
+ZOUND is a sound library for video editors. It indexes official Freesound previews and keeps license metadata visible per card.
 
 ## Setup
 
