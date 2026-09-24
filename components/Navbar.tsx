@@ -1,0 +1,4 @@
+import Link from "next/link";
+import { Headphones, Menu } from "lucide-react";
+
+export function Navbar() { return <header className="sticky top-0 z-20 border-b border-white/10 bg-[#0d0d12]/80 backdrop-blur-xl"><div className="mx-auto flex max-w-[1440px] items-center justify-between px-5 py-4 lg:px-10"><Link href="/" className="flex items-center gap-3"><span className="grid h-9 w-9 place-items-center rounded-xl gradient-line shadow-lg shadow-purple-500/20"><Headphones size={18} /></span><span className="text-lg font-black tracking-[.22em]">ZOUND</span></Link><nav className="hidden items-center gap-7 text-sm text-zinc-400 md:flex"><Link href="/" className="text-white">Library</Link><Link href="/license">License</Link><Link href="/terms">Terms</Link><Link href="/contact">DMCA / Contact</Link></nav><button className="rounded-lg border border-white/10 p-2 text-zinc-300 md:hidden" aria-label="Open navigation"><Menu size={19} /></button></div></header>; }

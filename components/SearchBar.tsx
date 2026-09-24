@@ -1,0 +1,3 @@
+"use client";
+import { Search, SlidersHorizontal } from "lucide-react";
+export function SearchBar({ value, onChange }: { value: string; onChange: (v: string) => void }) { return <div className="glass flex items-center gap-3 rounded-2xl px-4 py-3"><Search size={18} className="text-zinc-500" /><input value={value} onChange={(e) => onChange(e.target.value)} placeholder="Search sounds, moods, textures..." className="min-w-0 flex-1 bg-transparent text-sm text-white outline-none placeholder:text-zinc-600" /><button className="hidden items-center gap-2 rounded-lg border border-white/10 px-3 py-2 text-xs text-zinc-400 sm:flex"><SlidersHorizontal size={14} /> Filters</button></div>; }

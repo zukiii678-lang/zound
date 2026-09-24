@@ -1,0 +1,2 @@
+import Link from "next/link";
+export function Footer() { return <footer className="border-t border-white/10 px-5 py-8 lg:px-10"><div className="mx-auto flex max-w-[1440px] flex-col justify-between gap-4 text-xs text-zinc-600 sm:flex-row"><p>© {new Date().getFullYear()} ZOUND. Made for better edits.</p><div className="flex gap-5"><Link href="/license" className="hover:text-zinc-300">Licenses & Copyright</Link><Link href="/terms" className="hover:text-zinc-300">Terms</Link><Link href="/contact" className="hover:text-zinc-300">DMCA / Contact</Link></div></div></footer>; }
